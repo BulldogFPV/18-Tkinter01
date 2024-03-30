@@ -5,7 +5,7 @@ import tkinter as tk
 # In this module, all of the _todo_ items will be in one comment because you
 # will be modifying the same block of code as you go.
 #
-# TODO: 1. (2 pts)
+# Done: 1. (2 pts)
 #
 #   First, create a tkinter window called window. This is where you will be
 #   putting all of your widgets.
@@ -16,7 +16,7 @@ import tkinter as tk
 #   Once you have done this, then change the above _TODO_ to DONE.
 #
 #
-# TODO: 2. (2 pts)
+# Done: 2. (2 pts)
 #
 #   Now, create a basic label called label with some text in it. You decide
 #   what text you want in the label.
@@ -26,7 +26,7 @@ import tkinter as tk
 #   Once you have done this, then change the above _TODO_ to DONE.
 #
 #
-# TODO: 3. (2 pts)
+# Done: 3. (2 pts)
 #
 #   Now, create a basic button called button with some text in it. You decide
 #   what text you want in the button.
@@ -36,7 +36,7 @@ import tkinter as tk
 #   Once you have done this, then change the above _TODO_ to DONE.
 #
 #
-# TODO: 4. (2 pts)
+# Done: 4. (2 pts)
 #
 #   Now, create a basic entry box called entry. No need for customization here.
 #
@@ -44,3 +44,12 @@ import tkinter as tk
 #   
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+window = tk.Tk()
+window.title("Window")
+label = tk.Label(window, text="Rock n' Roll!")
+label.pack()
+button = tk.Button(window, text="Press!")
+button.pack()
+entry = tk.Entry(window)
+entry.pack()
+window.mainloop()

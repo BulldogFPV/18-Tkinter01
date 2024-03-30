@@ -5,7 +5,7 @@ import tkinter as tk
 # In this module, all of the _todo_ items will be in one comment because you
 # will be modifying the same block of code as you go.
 #
-# TODO: 1. (2 pts)
+# Done: 1. (2 pts)
 #
 #   First, create a tkinter window called window and give it the title "Custom
 #   Widgets"
@@ -16,7 +16,7 @@ import tkinter as tk
 #   Once you have done this, then change the above _TODO_ to DONE.
 #
 #
-# TODO: 2. (2 pts)
+# Done: 2. (2 pts)
 #
 #   Create a label called label with the text "My Custom Label" in it.
 #
@@ -31,7 +31,7 @@ import tkinter as tk
 #   Once you have done this, then change the above _TODO_ to DONE.
 #
 #
-# TODO: 3. (2 pts)
+# Done: 3. (2 pts)
 #
 #   Create a button called button with the text "My Custom Button" in it.
 #
@@ -46,7 +46,7 @@ import tkinter as tk
 #   Once you have done this, then change the above _TODO_ to DONE.
 #
 #
-# TODO: 4. (2 pts)
+# Done: 4. (2 pts)
 #
 #   Create an entry box called entry with this attribute:
 #       - width = 20
@@ -58,3 +58,13 @@ import tkinter as tk
 #   
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+window = tk.Tk()
+window.title("Custom Widgets")
+label = tk.Label(window, text="My Custom Label", foreground="purple", background="green", width=15, height=3)
+label.pack()
+button = tk.Button(window, text="My Custom Button", foreground="white", background="black", width=12, height=2)
+button.pack()
+entry = tk.Entry(window, width=20)
+entry.insert(0, "Sal")
+entry.pack()
+window.mainloop()
